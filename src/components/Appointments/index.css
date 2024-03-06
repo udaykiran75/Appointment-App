@@ -1,0 +1,130 @@
+.appointment-bg {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.appointment-card-bg {
+  background-color: white;
+  width: 90%;
+  height: 85%;
+  padding: 5%;
+  border-radius: 8px;
+}
+.button {
+  background-color: #8b5cf6;
+  color: white;
+  font-family: Roboto;
+  border: none;
+  padding: 8px;
+  border-radius: 9px;
+  width: 60px;
+  cursor: pointer;
+}
+.appoinment-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .labelEl {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .inputEl {
+    padding: 6px;
+    padding-left: 10px;
+    font-family: Roboto;
+    font-size: 17px;
+    outline: none;
+    margin-bottom: 12px;
+    margin-top: 7px;
+    width: 230px;
+  }
+  .heading {
+    font-size: 25px;
+    font-family: Roboto;
+  }
+  .appoinent-image {
+    width: 350px;
+  }
+}
+
+@media (min-width: 992px) {
+  .inputEl {
+    padding: 6px;
+    padding-left: 10px;
+    font-family: Roboto;
+    font-size: 17px;
+    outline: none;
+    margin-bottom: 12px;
+    margin-top: 7px;
+    width: 300px;
+  }
+  .heading {
+    font-size: 35px;
+    font-family: Roboto;
+  }
+  .appoinent-image {
+    width: 450px;
+  }
+}
+.horizantal-line {
+  border-width: 1px;
+  border-style: solid;
+  color: #b5b7c4;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.appoinent-list-items {
+  list-style-type: none;
+  display: flex;
+  padding: 0px;
+  flex-wrap: wrap;
+}
+.appoinent-starred-btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.appoin-heading {
+  font-size: 25px;
+  margin-top: 0px;
+}
+.starred-button {
+  border-radius: 15px;
+  padding: 3px;
+  width: 80px;
+  border-width: 1px;
+  border-style: solid;
+  color: #8b5cf6;
+  border-color: #8b5cf6;
+  font-family: Roboto;
+  font-size: 15px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.star-filled {
+  background-color: #8b5cf6;
+  color: white;
+}
+.star-empty {
+  background-color: transparent;
+  color: #8b5cf6;
+}
+
+@media (max-width: 576px) {
+  .appoinent-image {
+    display: none;
+  }
+  .inputEl {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 8px;
+    padding: 7px;
+    font-size: 17px;
+  }
+}
